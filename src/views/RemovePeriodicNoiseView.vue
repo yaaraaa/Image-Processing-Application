@@ -50,7 +50,7 @@
         <div class="imageWrapper">    
             <div class="column is-half is-narrow">
                 <figure class="image mb-6">
-                    <div v-if="this.frequencyDomainImage" class="title is-4 has-text-centered">Frequency domain image</div>
+                    <div v-if="this.frequencyDomainImage" class="title is-4 has-text-centered">Fourier transformed image</div>
                     <!-- TODO: USER SELECTS TWO PIXELS FROM IMAGE IF MASK IS CHOSEN -->
                     <img v-bind:src= this.frequencyDomainImage>
                 </figure>

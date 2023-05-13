@@ -36,7 +36,7 @@
         <div class="imageWrapper">    
             <div class="column is-half">
                 <figure class="image mb-6">
-                    <div v-if="this.selectedImage" class="title is-4 is-centered mt-5 has-text-centered">Input image</div>
+                    <div v-if="this.selectedImage" class="title is-4 mt-5 has-text-centered">Input image</div>
                     <img v-bind:src= this.selectedImage>
                 </figure>
             </div>
@@ -45,7 +45,7 @@
         <div class="imageWrapper"> 
             <div class="column is-half">
                 <figure class="image mb-6">
-                    <div v-if="this.resultImage" class="title is-4 is-centered mt-5 has-text-centered">Output image</div>
+                    <div v-if="this.resultImage" class="title is-4 mt-5 has-text-centered">Output image</div>
                     <img v-bind:src=this.resultImage>
                 </figure>
             </div>

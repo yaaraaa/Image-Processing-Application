@@ -37,7 +37,7 @@
       </div>
     </nav>
 
-    <div v-if="this.selectedImage" class="title is-4 is-centered mt-5 has-text-centered">Input image</div>
+    <div v-if="this.selectedImage" class="title is-4 mt-5 has-text-centered">Input image</div>
     <div class="columns is-mobile is-multiline is-centered is-narrow">  
         <div class="column is-narrow">
             <figure class="image mb-6">
@@ -50,7 +50,7 @@
         <div class="imageWrapper">    
             <div class="column is-half is-narrow">
                 <figure class="image mb-6">
-                    <div v-if="this.frequencyDomainImage" class="title  is-4">Frequency domain image</div>
+                    <div v-if="this.frequencyDomainImage" class="title is-4 has-text-centered">Frequency domain image</div>
                     <!-- TODO: USER SELECTS TWO PIXELS FROM IMAGE IF MASK IS CHOSEN -->
                     <img v-bind:src= this.frequencyDomainImage>
                 </figure>
@@ -60,7 +60,7 @@
         <div class="imageWrapper"> 
             <div class="column is-half is-narrow">
                 <figure class="image mb-6">
-                    <div v-if="this.resultImage" class="title  is-4">Denoised image</div>
+                    <div v-if="this.resultImage" class="title is-4 has-text-centered">Denoised image</div>
                     <img v-bind:src=this.resultImage>
                 </figure>
             </div>

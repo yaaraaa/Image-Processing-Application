@@ -26,7 +26,7 @@
       </div>
     </nav>
 
-    <div v-if="this.selectedImage" class="title is-4 is-centered mt-5 has-text-centered">Input image</div>
+    <div v-if="this.selectedImage" class="title is-4 mt-5 has-text-centered">Input image</div>
     <div class="columns is-mobile is-multiline is-centered is-narrow">  
         <div class="column is-narrow">
             <figure class="image mb-6">
@@ -39,7 +39,7 @@
         <div class="imageWrapper">    
             <div class="column is-half is-narrow">
                 <figure class="image mb-6">
-                    <div v-if="this.resultImages[0]" class="title  is-4">Equalized histogram</div>
+                    <div v-if="this.resultImages[0]" class="title is-4 has-text-centered">Equalized histogram</div>
                     <img v-bind:src= this.resultImages[0]>
                 </figure>
             </div>
@@ -48,7 +48,7 @@
         <div class="imageWrapper"> 
             <div class="column is-half is-narrow">
                 <figure class="image mb-6">
-                    <div v-if="this.resultImages[1]" class="title  is-4">Equalized image</div>
+                    <div v-if="this.resultImages[1]" class="title is-4 has-text-centered">Equalized image</div>
                     <img v-bind:src=this.resultImages[1]>
                 </figure>
             </div>
